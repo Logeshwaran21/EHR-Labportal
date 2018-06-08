@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('bloodtest');
+  this.route('lhome');
+  this.route('lprofile');
 });
 
 export default Router;
