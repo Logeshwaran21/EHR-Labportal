@@ -1,4 +1,8 @@
  <body class="homescreen">
+     
+<!------ Include the above in your HEAD tag ---------->
+<div id="throbber" style="display:none; min-height:120px;"></div>
+<div id="noty-holder"></div>
 <div id="wrapper">
     <!-- Navigation -->
     
@@ -17,7 +21,8 @@
             <a class="navbar-brand" href="http://cijulenlinea.ucr.ac.cr/dev-users/">
                
             </a>
-        </div>
+       
+   
         
         <!-- Top Menu Items -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -36,8 +41,42 @@
             </li>
         </ul>
         </div>
+        
         </div>
-        </div>
+        
+        
+        <div>
+            <ul class="nav navbar-nav side-nav" style="top: 142px">
+                <li>
+                   
+                    <a href="home" id="profile" {{action "show0"}}><font color="black">Home</font></a>
+                   
+                </li>
+                <li>
+                   
+                    <a href="home" id="profile" {{action "show"}}><font color="black">Profile</font></a>
+                   
+                </li>
+                <li>
+                   <a href="home" id="profile1" {{action "show1"}}><font color="black">Hospital Records</font></a>
+                    {{!-- <ul id="submenu-2" class="collapse">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
+                    </ul> --}}
+                </li>
+                <li>
+                    <a href="home" id="profile2" {{action "show2"}}><font color="black">Medication</font></a>
+                </li>
+                <li>
+                    <a href="home" id="profile3" {{action "show3"}}><font color="black">FirstAid Info</font></a>
+                </li>
+                <li>
+                    <a href="home" id="profile4" {{action "show4"}}><font color="black">Logout</font></a>
+                </li>
+            </ul>
+            </div>
+             </div>
    {{!-- <h1>Welcome to EHR Doctor's portal</h1> --}}
     <div class="container">
                 <div class="row">
@@ -46,7 +85,7 @@
     
     <h1><br>Profile</h1>
 </div>
-                        <img class="img-responsive picture" src="http://www.kusalimika.ch/file/2017/02/avaar.jpg">
+                        <img class="propic" style="width:340px;margin-top:40px" src="http://www.kusalimika.ch/file/2017/02/avaar.jpg">
                         <div>
                             <h5 class="text-bold"></h5>
                         </div>
@@ -84,37 +123,10 @@
                         <div class="clearfix"></div>
                         <div class="bot-border"></div>
                     </div>
-                </div>    
-                 <div>
-            <ul class="nav navbar-nav side-nav">
-                <li>
-                   
-                    <a href="home" id="profile" {{action "show0"}}><font color="black">Home</font></a>
-                   
-                </li>
-                <li>
-                   
-                    <a href="home" id="profile" {{action "show"}}><font color="black">Profile</font></a>
-                   
-                </li>
-                <li>
-                   <a href="home" id="profile1" {{action "show1"}}><font color="black">Hospital Records</font></a>
-                    {{!-- <ul id="submenu-2" class="collapse">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
-                    </ul> --}}
-                </li>
-                <li>
-                    <a href="home" id="profile2" {{action "show2"}}><font color="black">Medication</font></a>
-                </li>
-                <li>
-                    <a href="home" id="profile3" {{action "show3"}}><font color="black">FirstAid Info</font></a>
-                </li>
-                <li>
-                    <a href="home" id="profile4" {{action "show4"}}><font color="black">Logout</font></a>
-                </li>
-            </ul>
-            </div>
-        </div>
+                </div> 
+                  
+    </div>
+        
          </body>
+
+

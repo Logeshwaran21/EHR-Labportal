@@ -3,8 +3,9 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
+<!------ Include the above in your HEAD tag ---------->
+ <body class="homescreen">
 <form class="form-horizontal">
 <fieldset>
 
@@ -13,7 +14,7 @@
 
 <!-- File Button --> 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Photo">Photo</label>
+  <label class="col-md-4 control-label" for="Photo">Upload Report</label>
   
     <input id="Photo" name="Photo" class="input-file" type="file">
   
@@ -21,7 +22,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Registration Number ">Registration Number </label>  
+  <label class="col-md-4 control-label" for="Registration Number ">Patient Id </label>  
   
   <input id="Registration Number " name="Registration Number " type="text" placeholder="" class="form-control input-md">
     
@@ -30,12 +31,46 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="BHT Number">BHT Number</label>  
+  <label class="col-md-4 control-label" for="BHT Number">Symptoms&signs</label>  
   
   <input id="BHT Number" name="BHT Number" type="text" placeholder="" class="form-control input-md">
     
   
 </div>
+<body>
+
+<div class="container">
+  <h2>Report Details</h2>
+              
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date & Time</th>
+        <th>Disease Identified</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>10/01/2018 & 2.30pm</td>
+        <td>Blood clotting inside brain</td>
+        <td>Starting stage</td>
+      </tr>
+      <tr>
+        <td>22/03/2018 & 8.43pm</td>
+        <td>Fracture in backbone</td>
+        <td>Need to operate</td>
+      </tr>
+      <tr>
+        <td>14/05/2018 & 5.34pm</td>
+        <td>Kidney Stone</td>
+        <td>Severe</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
 
 <!-- Select Basic -->
 <div class="form-group">
@@ -62,16 +97,16 @@
   <label class="col-md-4 control-label" for="Patient Status ">Patient Status </label>
   <div class="col-md-4">
     <select id="Patient Status " name="Patient Status " class="form-control">
-      <option value="1">Option one</option>
-      <option value="2">Option two</option>
-      <option value="3">Option three</option>
+      <option value="1">Normal</option>
+      <option value="2">Need to be admitted</option>
+      <option value="3">Need of Surgery</option>
     </select>
   </div>
 </div>
 
 <!-- Text input-->
 
-<div class="form-group">
+<!--<div class="form-group">
   <label class="col-md-4 control-label" for="textinput">Registration Date </label>  
   
   <input id="textinput" name="textinput" type="text" placeholder="Registration Date " class="form-control input-md">
@@ -108,7 +143,7 @@
 </div>
 
 <!-- Text input-->
-<div class="form-group">
+<!--<div class="form-group">
   <label class="col-md-4 control-label" for="NIC">NIC</label>  
   <div class="col-md-4">
   <input id="NIC" name="NIC" type="text" placeholder="" class="form-control input-md">
@@ -117,7 +152,7 @@
 </div>
 
 <!-- Text input-->
-<div class="form-group">
+<!--<div class="form-group">
   <label class="col-md-4 control-label" for="Relation">Relation</label>  
   <div class="col-md-4">
   <input id="Relation" name="Relation" type="text" placeholder="" class="form-control input-md">
@@ -126,7 +161,7 @@
 </div>
 
 <!-- Text input-->
-<div class="form-group">
+<!--<div class="form-group">
   <label class="col-md-4 control-label" for="Guardian">Guardian</label>  
   <div class="col-md-4">
   <input id="Guardian" name="Guardian" type="text" placeholder="" class="form-control input-md">
@@ -157,6 +192,7 @@
   <div class="col-md-4">
     <button id="Save" name="Save" class="btn btn-success">Save</button>
   </div>
+<body></body>
 </div>
 
 

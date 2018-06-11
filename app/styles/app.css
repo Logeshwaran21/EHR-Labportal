@@ -142,7 +142,7 @@
     padding: 5px 15px;
 }
 
-.homescreen{
+/*.homescreen{
     background-image: url(https://www.gleneagles.com.sg/Sitefinity/WebSiteTemplates/ParkwayTemplate/App_Themes/ParkwayTheme/Images/en/background/clinical_laboratory.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -164,4 +164,26 @@
     background-image: url(https://www.gleneagles.com.sg/Sitefinity/WebSiteTemplates/ParkwayTemplate/App_Themes/ParkwayTheme/Images/en/background/clinical_laboratory.png);
     background-position: center;
     background-repeat: no-repeat;
+   }*/
+.homescreen{
+    background-image: url(https://www.gleneagles.com.sg/Sitefinity/WebSiteTemplates/ParkwayTemplate/App_Themes/ParkwayTheme/Images/en/background/clinical_laboratory.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    position: fixed;
+    top: -123px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
    }
+   .form-group{
+       width: 48%;
+   }
+   .navbar-fixed-top {
+    top: -42px;
+    border-width: 0 0 1px;
+}
